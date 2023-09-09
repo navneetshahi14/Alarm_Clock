@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr-YQY77EH2I64EQHxjYNEvYyHdwhn4TFPIA&usqp=CAU" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-box">
+            <h2>Alarm Clock</h2>
+            <div class="analog_clock">
+                <div class="h" id="h_hand">
+                    <div class="h_hand" ></div>
+                </div> 
+                <div class="m" id="m_hand">
+                    <div class="m_hand" ></div>
+                </div> 
+                <div class="s" id="s_hand">
+                    <div class="s_hand" ></div>
+                </div> 
+            </div>
+            <div class="digital_clock">
+                <span id="h">00</span>
+                <span>:</span>
+                <span id="m">00</span>
+                <span>:</span>
+                <span id="s">00</span>
+                <span id="period">AM</span>
+            </div>
+            <div class="alarm_box">
+                <select name="" id="setHr">
+                    <option value="hour" selected hidden disabled>Hour</option>
+                </select>
+                <select name="" id="setMin">
+                    <option value="minute" selected hidden disabled>Minute</option>
+                </select>
+                <select name="" id="setSec">
+                    <option value="ampm" selected hidden disabled>AM/PM</option>
+                </select>
+            </div>
+            <div class="sound_box">
+                <button type="submit" id="Set">Set</button>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Script tags -->
+    <script src="./script.js"></script>
+</body>
+</html>
