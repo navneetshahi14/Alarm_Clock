@@ -13,7 +13,7 @@ This repository contains a simple alarm clock webpage created using HTML, CSS, a
 
 ## Demo
 
-You can see a live demo of the Alarm Clock Webpage here: [./index.html](#)
+You can see a live demo of the Alarm Clock Webpage here: [Demo](index.html)
 
 ## Features
 
